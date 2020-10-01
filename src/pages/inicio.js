@@ -6,9 +6,8 @@ class inicio extends React.Component {
   render() {
     return (
       <div
-        className="container-fluid"
+        className="container-fluid fondo"
         style={{ backgroundImage: `url(${FondoPrincipal})` }}
-        class="fondo"
       >
         <div className="row">
           <div className="col-md-11">
