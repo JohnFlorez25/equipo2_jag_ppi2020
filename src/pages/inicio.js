@@ -1,10 +1,15 @@
 import React from "react";
 import "../Style/styles.css";
+import FondoPrincipal from "../imagenes/fondo.jpg";
 
 class inicio extends React.Component {
   render() {
     return (
-      <div className="container-fluid" class="fondo">
+      <div
+        className="container-fluid"
+        style={{ backgroundImage: `url(${FondoPrincipal})` }}
+        class="fondo"
+      >
         <div className="row">
           <div className="col-md-11">
             <h1 class="titulo">
