@@ -8,7 +8,7 @@ class inicio extends React.Component {
         <div className="row">
           <div className="col-md-11">
             <h1 class="titulo">
-              <strong> reciclando "Ando"</strong>
+              <strong>Bienvenidos a reciclando "Ando"</strong>
             </h1>
           </div>
           <div className="col-md-1">
